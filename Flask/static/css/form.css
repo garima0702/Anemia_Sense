@@ -1,0 +1,73 @@
+/* Overall Page Background */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form Container */
+.container {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 650px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* Input Fields */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5);
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #1b9337;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #17812f;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: #95a5a6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+/* Spacing between form elements */
+.mb-3 {
+    margin-bottom: 20px !important;
+}
